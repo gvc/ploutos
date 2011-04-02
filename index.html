@@ -3,12 +3,34 @@
     <meta charset='utf-8'>
     <title>Ploutos</title>
     <link rel='stylesheet' type='text/css' href='style/ploutos.css' />
+    <script type='text/javascript' src='js/jquery-1.5.1.min.js'></script>
+    <script type='text/javascript' src='js/jquery.maskedinput-1.3.min.js'></script>
+    <script type='text/javascript' src='js/ploutos.js'></script>
   </head>
   <body>
     <header>
       <h1>Ploutos</h1>
       <p class='sub'>God of money</p>
     </header>
+    <div id='form'>
+      <form action='#'>
+        <div>
+          <label for='valor'>Valor</label>
+          <input type='text' name='valor' id='valor' maxlength='8' />
+        </div>
+        <div>
+          <label for='data'>Data</label>
+          <input type='text' name='data' maxlength='10' id='data' placeholder='dd/mm/aaaa'/>
+        </div>
+        <div>
+          <label for='descricao'>Descrição</label>
+          <input type='text' name='descricao' maxlength='37' id='descricao'>
+        </div>
+        <div>
+          <button type='submit'>Adicionar</button>
+        </div>
+      </form>
+    </div>
     <div id='credit'>
       <h2>Crédito</h2>
       <textarea readonly='readonly' cols='55' rows='30'></textarea>

@@ -25,6 +25,41 @@ header p {
   font-size: .7em;
 }
 
+form div {
+  float: left;
+  margin: 0 10px;
+}
+
+input[name=valor] {
+  width: 150px;
+}
+
+input[name=data] {
+  width: 120px;
+}
+
+input[name=descricao] {
+  width: 305px;
+}
+
+label.erro {
+  color: red;
+}
+
+form div label {
+  display: block;
+}
+
+form div input {
+  padding: .2em .4em;
+  font-size: 16px;
+}
+
+form div button {
+  margin-top: 2em;
+  padding: .8em 1em;
+}
+
 #credit, #debit {
   width: 480px;
   margin: 10px 5px;
@@ -32,8 +67,13 @@ header p {
   text-align: center;
 }
 
+#form {
+  margin: 2em auto .5em;
+  width: 44em;
+}
+
 h2 {
-  margin-bottom: .2em;
+  margin: .2em;
 }
 
 textarea{
