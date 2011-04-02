@@ -1,0 +1,43 @@
+@font-face { font-family: Bitstream; src: url('fonts/Vera.ttf'); }
+@font-face { font-family: Roman SD; src: url('fonts/Roman SD.ttf'); }
+
+body {
+  width: 980px;
+  margin: 1em auto;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-family: Roman SD;
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: .2em;;
+}
+
+header p {
+  margin-top: 0;
+  font-style: italic;
+  font-size: .7em;
+}
+
+#credit, #debit {
+  width: 480px;
+  margin: 10px 5px;
+  float: left;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: .2em;
+}
+
+textarea{
+  font-family: Bitstream, mono;
+  font-size: 13px;
+  padding: .4em .6em;
+}
